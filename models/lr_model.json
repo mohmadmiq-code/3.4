@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "model": "logistic_regression_light",
+  "chapter": "1",
+  "features": [
+    "difficulty",
+    "attempts_count",
+    "used_help",
+    "time_spent_sec",
+    "showed_solution",
+    "bkt_mastery"
+  ],
+  "weights": {
+    "bias": -0.25,
+    "difficulty": -0.35,
+    "attempts_count": -0.2,
+    "used_help": -0.3,
+    "time_spent_sec": 0.02,
+    "showed_solution": -0.4,
+    "bkt_mastery": 1.8
+  }
+}
